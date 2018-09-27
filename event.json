@@ -1,0 +1,121 @@
+{
+  "name": "nadir93",
+  "Records": [{
+      "eventID": "7da0a0f49cde387c6e05eb4a2ed3179c",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-northeast-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1510017480,
+        "Keys": {
+          "SVC_ID": {
+            "N": "200"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          }
+        },
+        "NewImage": {
+          "SVC_ID": {
+            "N": "200"
+          },
+          "TX_RST_CD": {
+            "S": "READY"
+          },
+          "ORD_NO": {
+            "S": "1234367845"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          },
+          "timestamp": {
+            "S": "2017-11-15T01:05:13.358Z"
+          }
+        },
+        "SequenceNumber": "36640500000000005224413155",
+        "SizeBytes": 128,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:ap-northeast-1:087518667058:table/POC_TX_MGMT/stream/2017-10-30T08:45:58.687"
+    },
+    {
+      "eventID": "144be2e4c5b57646a83a3c216c8b295e",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-northeast-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1510017480,
+        "Keys": {
+          "SVC_ID": {
+            "N": "300"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          }
+        },
+        "NewImage": {
+          "SVC_ID": {
+            "N": "300"
+          },
+          "TX_RST_CD": {
+            "S": "READY"
+          },
+          "ORD_NO": {
+            "S": "1234367845"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          },
+          "timestamp": {
+            "S": "2017-11-15T01:05:13.358Z"
+          }
+        },
+        "SequenceNumber": "36640600000000005224413183",
+        "SizeBytes": 128,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:ap-northeast-1:087518667058:table/POC_TX_MGMT/stream/2017-10-30T08:45:58.687"
+    },
+    {
+      "eventID": "5e2112efe4c964c0ff683b67a5f51e0c",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-northeast-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1510017480,
+        "Keys": {
+          "SVC_ID": {
+            "N": "100"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          }
+        },
+        "NewImage": {
+          "SVC_ID": {
+            "N": "100"
+          },
+          "TX_RST_CD": {
+            "S": "READY"
+          },
+          "ORD_NO": {
+            "S": "1234367845"
+          },
+          "TX_ID": {
+            "S": "7d3f7dee-eae0-4854-9764-8b1167214d4c"
+          },
+          "timestamp": {
+            "S": "2017-11-15T01:05:13.358Z"
+          }
+        },
+        "SequenceNumber": "36640700000000005224413184",
+        "SizeBytes": 128,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:ap-northeast-1:087518667058:table/POC_TX_MGMT/stream/2017-10-30T08:45:58.687"
+    }
+  ]
+}

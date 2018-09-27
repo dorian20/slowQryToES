@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Description: A simple Hello World Serverless project
+Resources:
+  slowQryLogToES:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: nodejs6.10
+      Handler: slowQryLogToES.handler
+      CodeUri: .
+      Environment:
+        Variables:
+          queryFilterKeywords: "performance_schema,information_schema,mysql,rdsadmin"
+          SNSTopicLists: "icms,display,campaign,members,order,pzero,payment,claim"
+          hostFilterKeywords: "rdsadmin,pocuser,pruser,b2_dms"
+          DATABASE: "ltcmdev"
+          DEBUG_LOG: "true"
+          ES_ENDPOINT: "https://search-el-dev-znz7hdtpcgghjcq4vatwtc3xiu.ap-northeast-2.es.amazonaws.com"
+          ES_REGION: "ap-northeast-2"
